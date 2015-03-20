@@ -154,17 +154,41 @@ li {
 	text-align: center;
 }
 
+#promotions-content {
+	width: 600px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	padding: 20px;
+	text-align: center;
+	margin-top: 110px;
+	margin-bottom: 110px
+}
+
 #rustwork img{
 	padding-top: 20px;
 	max-width: 100%
 }
+
+#insurance img {
+	background-color: white;
+	max-width: 90%;
+	position: center;
+}
+
+#airlines img {
+	background-color: white;
+	max-width: 100%;
+}
+
 .footer p {
 	padding: 0;
 	margin: 0;
 }
 
 .contact-footer {
-	width: 35%;
+	width: 470px;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-column-count: 4; /* Chrome, Safari, Opera */
