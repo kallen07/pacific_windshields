@@ -13,23 +13,13 @@ body {
 }
 
 #top-bar {
-	width: 102%;
 	height: 100px;
 	background-color: white;
 	background: rgba(255, 255, 255, .7);
 	font-size: 18px;
 	position: relative;
-	margin: -10px -60px 0 -10px;
+	margin: -10px -10px 0 -10px;
 }
-/*
-.fixed-width {
-	padding: 0;
-	width: 0;
-	height: 0;
-	width: 100%;
-	margin: 0 auto;
-}
-*/
 
 #logo {
 	padding-right: 10px;
@@ -154,11 +144,47 @@ li {
 	 list-style-type: none;
 }
 
+.single-col {
+	width: 600px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	padding: 20px;
+	text-align: center;
+}
+
+.footer p {
+	padding: 0;
+	margin: 0;
+}
+
+.contact-footer {
+	width: 28%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px; 
+    column-gap: 0px;
+    text-align: center;
+    padding: none;
+    padding-top: 10px;
+}
+
+.contact-footer ul {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
 .footer {
 	text-align: center;
 	background-color: white;
 	background: rgba(255, 255, 255, .7);
 	font-size: 12px;
-	margin: 50px -10px -10px -10px;
+	margin: 40px -10px -20px -10px;
 }
 
