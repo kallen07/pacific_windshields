@@ -160,12 +160,12 @@ li {
 }
 
 .contact-footer {
-	width: 28%;
+	width: 35%;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
     -webkit-column-gap: 0px;
     -moz-column-gap: 0px; 
     column-gap: 0px;
@@ -174,10 +174,9 @@ li {
     padding-top: 10px;
 }
 
-.contact-footer ul {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 10px;
+.contact-footer {
+	border-left: 10px black;
+	border-top: 10px black;
 }
 
 .footer {
