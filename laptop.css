@@ -1,0 +1,174 @@
+body {
+	font-family: helvetica, sans-serif, Arial, Helmet, Freesans;
+	background-image:  url("images/dirt_road.jpg");
+   	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	line-height: 170%;
+	font-size: 15px;
+}
+
+#top-bar {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	font-size: 18px;
+	position: relative;
+	margin: -10px -40px 0 -10px;
+}
+
+.fixed-width {
+	padding: 0;
+	width: 0;
+	height: 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo {
+	padding-right: 10px;
+	float:left;
+	border-right: 1px;
+}
+
+#logo img {
+	margin:10px 10px 0 20px;
+	height: 85px;
+}
+
+#top-menu ul {
+	float: right;
+	padding: 0;
+	margin: 0;
+	height:60px;
+}
+
+#top-menu li {
+	float: right;
+	color: black;
+	height: 33px;
+	list-style: none;
+	padding: 13px 20px 13px 20px;
+}
+
+
+#top-menu input {
+	height:25px;
+	border:none;
+	width:180px;
+	font-weight: bold;
+	color: black;
+	font-size:110%;
+	position:relative;
+}
+
+#header-links {
+	position: relative;
+	top: 25px;
+}
+
+#title-bar {
+	background-color:#990000;
+	width:100%;
+	height:110px;
+}
+
+#promotions:hover {
+      border-bottom: 3px solid black;
+}
+
+#insurance:hover {
+      border-bottom: 3px solid black;
+}
+
+#rustwork:hover {
+      border-bottom: 3px solid black;
+}
+
+#service-areas:hover {
+      border-bottom: 3px solid black;
+}
+
+#home:hover {
+      border-bottom: 3px solid black;
+}
+
+.clear {
+	clear: both;
+	margin-bottom: 40px;
+}
+
+.content {
+	width: 800px;
+	margin-left: auto ;
+  	margin-right: auto ;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	padding: 20px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 25px;
+    -moz-column-gap: 25px; 
+    column-gap: 25px;
+}
+
+.text {
+	-webkit-column-span: 1; /* Chrome, Safari, Opera */
+    column-span: 1;
+    text-align: justify;
+}
+.header {
+	text-align: center;
+	color: #0778be;
+	font-family: palatino;
+}
+
+h1.header {
+	font-size: 45px;
+}
+
+
+h3.header{
+	font-size: 25px;
+}
+
+.stress {
+	font-weight: bold;
+	color: #0778be;
+}
+
+.italics {
+	font-style: italic;
+	text-align: center;
+}
+
+
+#worksite img {
+	width:100%;
+	max-width: 415px;
+}
+
+
+#contact-us {
+	padding-top: 10px;
+	text-align: center;
+}
+
+li {
+	 list-style-type: none;
+}
+
+.footer {
+	text-align: center;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	font-size: 12px;
+	margin: 50px -10px -10px -10px;
+}
+
