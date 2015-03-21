@@ -1,6 +1,6 @@
 body {
 	font-family: helvetica, sans-serif, Arial, Helmet, Freesans;
-	background-image:  url("images/dirt_road.jpg");
+	background-image:  url("images/road.jpg");
    	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 
 .logo {
 	height: 100px;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	font-size: 18px;
 	position: relative;
 	margin: -10px -10px 0 -10px;
@@ -41,7 +41,7 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	text-align: center;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 5px; 
 	margin: 15px 0 15px 0;
 }
@@ -67,7 +67,7 @@ a{
 .content {
 	margin: 10px 5% 10px 5%;
 	text-align: center;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 }
 
@@ -119,13 +119,13 @@ li {
 .single-col {
 	margin: 10px 5% 10px 5%;
 	text-align: center;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 }
 
 #promotions-content {
 	margin: 10px 5% 10px 5%;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 	text-align: center;
 }
@@ -177,7 +177,7 @@ li {
 .footer, #single-line-footer {
 	text-align: center;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	font-size: 12px;
 	margin: 40px -10px -20px -10px;
 

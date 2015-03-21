@@ -1,6 +1,6 @@
 body {
 	font-family: helvetica, sans-serif, Arial, Helmet, Freesans;
-	background-image:  url("images/dirt_road.jpg");
+	background-image:  url("images/road.jpg");
    	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -15,7 +15,7 @@ body {
 .top-bar {
 	height: 100px;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	font-size: 18px;
 	position: relative;
 	margin: -10px -10px 0 -10px;
@@ -69,7 +69,7 @@ a{
 	margin-left: auto ;
   	margin-right: auto ;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     	-moz-column-count: 2; /* Firefox */
@@ -132,7 +132,7 @@ li {
 	margin-left: auto ;
   	margin-right: auto ;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 	text-align: center;
 }
@@ -142,7 +142,7 @@ li {
 	margin-left: auto ;
   	margin-right: auto ;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	padding: 20px;
 	text-align: center;
 	margin-top: 110px;
@@ -193,7 +193,7 @@ li {
 .footer, #single-line-footer {
 	text-align: center;
 	background-color: white;
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .85);
 	font-size: 12px;
 	margin: 40px -10px -20px -10px;
 }
