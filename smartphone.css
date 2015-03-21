@@ -10,75 +10,44 @@ body {
 	background-size: cover;
 	line-height: 170%;
 	font-size: 15px;
+	height: 100%;
+	width: 100%;
 }
 
-.top-bar {
+.fixed-width {
+	width: 100%;
+	position: relative;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
 	height: 100px;
-	background-color: white;
 	background: rgba(255, 255, 255, .7);
 	font-size: 18px;
 	position: relative;
 	margin: -10px -10px 0 -10px;
 }
 
-.logo {
-	padding-right: 10px;
-	float:left;
-	border-right: 1px;
-}
-
 .logo img {
-	margin:10px 10px 0 20px;
+	margin:10px 10px 0 10px;
 	height: 85px;
+	text-align: center;
 }
 
 
-@media screen
-	and (min-width : 931px) {
-
-	.top-menu ul {
-		margin-left: 90px;
-		padding: 0;
-		margin: 0;
-		height:60px;
-	}
-
-	.top-menu li {
-		float: right;
-		color: black;
-		height: 33px;
-		list-style: none;
-		padding: 13px 20px 13px 20px;
-	}
-
-	.header-links {
-		position: relative;
-		top: 25px;
-	}
+.header-links {
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+	background: rgba(255, 255, 255, .7);
+	padding: 5px; 
+	margin: 15px 0 15px 0;
 }
 
-@media screen
-	and (max-width : 930px) 	
-	and (min-width : 661px) {
-	.top-menu ul {
-		margin-left: 90px;
-		padding: 0;
-		margin: 0;
-		height:33px;
-	}
-
-	.top-menu li {
-		float: right;
-		color: black;
-		height: 33px;
-		list-style: none;
-		padding: 0 20px 0 15px;
-	}
-
-	.header-links {
-		position: relative;
-		top: 25px;
-	}
+.header-links a {
+	padding: 0px 5px 0px 5px;
 }
 
 a{
@@ -86,7 +55,7 @@ a{
 	color: black;
 }
 
-a:hover {
+.header-links a:hover {
 	border-bottom: 3px solid black;
 }
 
@@ -96,18 +65,14 @@ a:hover {
 }
 
 .content {
-	width: 400px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	margin: 10px 5% 10px 5%;
+	text-align: center;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
 }
 
 .text {
-	-webkit-column-span: 1; /* Chrome, Safari, Opera */
-    column-span: 1;
-    text-align: justify;
+   	text-align: justify;
 }
 .header {
 	text-align: center;
@@ -142,34 +107,27 @@ h3.header{
 
 
 #contact-us {
-	padding-top: 10px;
+	padding-top: 20px;
 	text-align: center;
 }
 
-li {
-	 list-style-type: none;
+li {	
+	margin-left: -25px;
+	list-style: none;
 }
 
 .single-col {
-	width: 600px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	margin: 10px 5% 10px 5%;
+	text-align: center;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
-	text-align: center;
 }
 
 #promotions-content {
-	width: 600px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	margin: 10px 5% 10px 5%;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
 	text-align: center;
-	margin-top: 110px;
-	margin-bottom: 110px
 }
 
 #rustwork img{
@@ -188,41 +146,39 @@ li {
 	max-width: 100%;
 }
 
+#map-photo img {
+	max-width: 100%;
+}
+
 .footer p {
 	padding: 0;
 	margin: 0;
 }
 
 .contact-footer {
-	width: 470px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
-    -webkit-column-gap: 0px;
-    -moz-column-gap: 0px; 
-    column-gap: 0px;
-    text-align: center;
-    padding: none;
-    padding-top: 10px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+	-webkit-column-gap: 0px;
+	-moz-column-gap: 0px; 
+	column-gap: 0px;
+	text-align: center;
+	padding: none;
+	padding-top: 10px;
 }
 
-.contact-footer {
-	border-left: 10px black;
-	border-top: 10px black;
+.copyright p {
+	padding-top: 30px;
 }
 
-.footer {
+.footer, #single-line-footer {
 	text-align: center;
 	background-color: white;
 	background: rgba(255, 255, 255, .7);
 	font-size: 12px;
 	margin: 40px -10px -20px -10px;
-}
 
-@media screen
-	and (max-width : 660px) {	
-	@import url("smartphone.css");
-	}
 }

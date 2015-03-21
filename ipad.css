@@ -9,46 +9,46 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	line-height: 170%;
-	font-size: 15px;
-}
-
-.top-bar {
-	height: 100px;
-	background-color: white;
-	background: rgba(255, 255, 255, .7);
-	font-size: 18px;
-	position: relative;
-	margin: -10px -10px 0 -10px;
-}
-
-.logo {
-	padding-right: 20px;
-	float:left;
-}
-
-.logo img {
-	padding-top: 10px;
-	margin:0;
-	height: 85px;
+	font-size: 16px;
+	height: 100%;
+	width: 100%;
 }
 
 .fixed-width {
-	width: 860px;
+	width: 100%;
 	position: relative;
 	text-align:center;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.logo {
+	height: 150px;
+	background: rgba(255, 255, 255, .7);
+	position: relative;
+	margin: -10px -10px 0 -10px;
+}
+
+.logo img {
+	margin:10px 10px 0 10px;
+	height: 130px;
+	text-align: center;
+}
+
+
 .header-links {
-	padding: 40px 0 0 0;	
-	width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	background: rgba(255, 255, 255, .7);
+	padding: 5px; 
+	margin: 15px 0 15px 0;
+	font-size: 22px;
 }
 
 .header-links a {
-	margin-right: 20px;
+	padding: 0px 5px 0px 5px;
 }
-
 
 a{
 	text-decoration: none;
@@ -65,24 +65,14 @@ a{
 }
 
 .content {
-	width: 850px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	margin: 10px 15% 10px 15%;
+	text-align: center;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    	-moz-column-count: 2; /* Firefox */
-    	column-count: 2;
-    	-webkit-column-gap: 25px;
-    	-moz-column-gap: 25px; 
-    	column-gap: 25px;
 }
 
 .text {
-	-webkit-column-span: 1; /* Chrome, Safari, Opera */
-    	column-span: 1;
-   	 text-align: justify;
+   	text-align: justify;
 }
 .header {
 	text-align: center;
@@ -122,31 +112,24 @@ h3.header{
 }
 
 li {
-	 list-style-type: none;
-	 color: black;
-	 margin-left: -25px;
+	margin-left: -25px;
+	list-style-type: none;
 }
 
 .single-col {
-	width: 600px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	margin: 10px 15% 10px 15%;
+	text-align: center;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
-	text-align: center;
 }
 
 #promotions-content {
-	width: 600px;
-	margin-left: auto ;
-  	margin-right: auto ;
-	background-color: white;
+	width: 70%;
+	margin: 0px auto 270px auto ;
 	background: rgba(255, 255, 255, .7);
 	padding: 20px;
 	text-align: center;
-	margin-top: 110px;
-	margin-bottom: 110px
+	
 }
 
 #rustwork img{
@@ -165,35 +148,50 @@ li {
 	max-width: 100%;
 }
 
+#map-photo img {
+	max-width: 100%;
+}
+
 .footer p {
 	padding: 0;
 	margin: 0;
 }
 
 .contact-footer {
-	width: 470px;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	-webkit-column-count: 4; /* Chrome, Safari, Opera */
-    -moz-column-count: 4; /* Firefox */
-    column-count: 4;
-    -webkit-column-gap: 0px;
-    -moz-column-gap: 0px; 
-    column-gap: 0px;
-    text-align: center;
-    padding: none;
-    padding-top: 10px;
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+	-webkit-column-gap: 0px;
+	-moz-column-gap: 0px; 
+	column-gap: 0px;
+	text-align: center;
+	padding: none;
+	padding-top: 10px;
 }
 
-.contact-footer {
-	border-left: 10px black;
-	border-top: 10px black;
+.copyright p {
+	padding-top: 30px;
 }
 
-.footer, #single-line-footer {
+.footer {
 	text-align: center;
 	background-color: white;
 	background: rgba(255, 255, 255, .7);
 	font-size: 12px;
 	margin: 40px -10px -20px -10px;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
+
+#single-line-footer {
+	text-align: center;
+	background-color: white;
+	background: rgba(255, 255, 255, .7);
+	font-size: 12px;
+	margin: 40px -10px -20px -10px;
+
 }
