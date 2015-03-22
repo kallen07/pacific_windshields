@@ -1,7 +1,7 @@
 body {
 	font-family: helvetica, sans-serif, Arial, Helmet, Freesans;
-	background-image:  url("images/road.jpg");
-   	background-repeat: no-repeat;
+	background-image:  url("images/ocean_large.jpeg");
+   	background-repeat: repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
