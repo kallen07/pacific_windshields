@@ -12,6 +12,7 @@ body {
 	font-size: 14px;
 	height: 100%;
 	width: 100%;
+	color: #2A2727;
 }
 
 .fixed-width {
@@ -52,7 +53,7 @@ body {
 
 a{
 	text-decoration: none;
-	color: black;
+	color: #2A2727;
 }
 
 .header-links a:hover {
@@ -74,19 +75,23 @@ a{
 .text {
    	text-align: justify;
 }
-.header {
+
+.header3 {
 	text-align: center;
 	color: #0778be;
 	font-family: palatino;
-}
-
-h1.header {
-	font-size: 45px;
-}
-
-
-h3.header{
 	font-size: 25px;
+}
+
+#callnow {
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: bold;
+	font-family: palatino; 
+	font-weight: 20px;
+	color: #0778be;
+	padding: 0;
 }
 
 .stress {

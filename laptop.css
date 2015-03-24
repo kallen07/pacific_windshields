@@ -4,12 +4,13 @@ body {
    	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
-	-webkit-background-size: cover;
+	-webkit-background-size: lover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	line-height: 170%;
 	font-size: 15px;
+	color: #2A2727; 
 }
 
 .top-bar {
@@ -52,7 +53,7 @@ body {
 
 a{
 	text-decoration: none;
-	color: black;
+	color: #2A2727;  
 }
 
 .header-links a:hover {
@@ -84,19 +85,23 @@ a{
     	column-span: 1;
    	 text-align: justify;
 }
-.header {
+
+.header3 {
 	text-align: center;
 	color: #0778be;
 	font-family: palatino;
-}
-
-h1.header {
-	font-size: 45px;
-}
-
-
-h3.header{
 	font-size: 25px;
+}
+
+#callnow {
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+	text-decoration: bold;
+	font-family: palatino; 
+	font-weight: 20px;	
+	color: #0778be;
+	padding: 0;
 }
 
 .stress {
@@ -123,7 +128,7 @@ h3.header{
 
 li {
 	 list-style-type: none;
-	 color: black;
+	 color: #2A2727;  
 	 margin-left: -25px;
 }
 

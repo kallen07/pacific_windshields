@@ -2,7 +2,7 @@ body {
 	font-family: helvetica, sans-serif, Arial, Helmet, Freesans;
 	background-image:  url("images/ocean_large.jpeg");
    	background-repeat: repeat;
-	background-position: center center;
+	background-position: olenter center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -12,6 +12,7 @@ body {
 	font-size: 15px;
 	height: 100%;
 	width: 100%;
+	color: #2A2727;
 }
 
 .fixed-width {
@@ -52,7 +53,7 @@ body {
 
 a{
 	text-decoration: none;
-	color: black;
+	color: #2A2727;
 }
 
 .header-links a:hover {
@@ -74,26 +75,30 @@ a{
 .text {
    	text-align: justify;
 }
-.header {
+
+#call-now {
+	padding: 10px;
+	font-size: 45px;
+	text-decoration: bold;
+	font-family: palatino;  
+	font-weight: 20px;	
+	padding: 0;
+	color: #0778be;
+	text-align: center;
+}
+
+.header3{
+	font-size: 25px;
 	text-align: center;
 	color: #0778be;
 	font-family: palatino;
-}
-
-h1.header {
-	font-size: 45px;
-}
-
-
-h3.header{
-	font-size: 25px;
 }
 
 .stress {
 	font-weight: bold;
 	color: #0778be;
 }
-
+	
 .italics {
 	font-style: italic;
 	text-align: center;
@@ -182,3 +187,5 @@ li {
 	margin: 40px -10px -20px -10px;
 
 }
+
+<
